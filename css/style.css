@@ -1,0 +1,232 @@
+/* Main Tag */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #172858;
+    filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.9));
+    z-index: 1 !important;
+}
+
+.navbar-brand img {
+    height: 43px;
+    margin: 5px 0 5px 0;
+    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.75));
+}
+
+.nav-link{
+    font-size: 16px;
+}
+
+.nav-link.active {
+    font-weight: 500;
+}
+
+/* Hero */
+#hero {
+    height: 100%;
+    padding: 100px 0 0 0;
+}
+
+#hero img {
+    max-height: 650px;
+    max-width: 100%;
+}
+
+/* Keunggulan Section */
+#keunggulan {
+    background-color: #f7f6f6;
+    padding: 100px 0 100px 0;
+}
+
+#keunggulan .deskripsi {
+    padding: 0 150px 0 150px;
+}
+
+#keunggulan h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: black;
+}
+
+#keunggulan p {
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+}
+
+#keunggulan h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+}
+
+#keunggulan h3 {
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+}
+
+#keunggulan img {
+    width: 60px;
+}
+
+/* Produk Section */
+#produk {
+    background-color: white;
+    padding: 100px 0 100px 0;
+}
+
+#produk .deskripsi {
+    padding: 0 150px 0 150px;
+}
+
+#produk h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: black;
+}
+
+#produk p {
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+}
+
+#produk .card-produk {
+    height: auto;
+    padding: 30px  20px 20px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#produk .card-produk:hover {
+    background-color: #F1FFFF;
+}
+
+#produk .card-produk p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#produk .card-produk h3 {
+    font-size:26px;
+    font-weight: 600;
+    color: #172858;
+}
+
+#produk .card-produk span {
+    font-size:12px;
+    font-weight: 500;
+    color: #172858;
+}
+
+#produk .pesan {
+    text-decoration: none;
+}
+
+#produk .pesan p {
+    height: auto;
+    padding: 7px;
+    background-color: #172858;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+}
+
+#produk .card-produk .bnwth {
+    font-size: 14px;
+    color: #1A94AC;
+    font-weight: 600;
+}
+
+#produk .banner {
+    width: 85%;
+}
+
+#produk img {
+    width: 100%;
+}
+
+/* Testimoni Section */
+#testimoni {
+    background-color: #f7f6f6;
+    padding: 100px 0 100px 0;
+}
+
+#testimoni .deskripsi {
+    padding: 0 150px 0 150px;
+}
+
+#testimoni h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: black;
+}
+
+#testimoni p {
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+}
+
+/* FAQ */
+#faq {
+    background-color: white;
+    padding: 100px 0 100px 0;
+}
+
+#faq h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: black;
+}
+
+#faq .accordion-button {
+    font-size: 17px;
+    font-weight: 500;
+    color: black; 
+}
+
+#faq .accordion-body {
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    padding: 20px; 
+}
+
+/* Footer Section */
+#footer {
+    background-color: #172858;
+    padding: 20px;
+}
+
+#footer p {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+
+/* Float Button */
+.float{
+	position:fixed;
+	bottom:30px;
+	right:30px;
+}
+
+.my-float {
+    height: 68px;
+    width: 180px;
+    filter: drop-shadow(0px 0px 7px rgba(0, 0, 0, 0.4));
+}

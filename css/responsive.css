@@ -1,0 +1,176 @@
+@media screen and (max-width : 673px) {
+    /* Navbar */
+    .navbar-brand img {
+        height: 33px;
+    }
+
+    .nav-link {
+        font-size: 14px;
+    }
+    
+    .nav-link.active {
+        font-weight: 400;
+    }
+    
+    /* Hero */
+    #hero {
+        padding: 85px 0 0 0;
+    }
+
+    /* Keunggulan Section */
+    #keunggulan {
+        padding: 50px 20px 50px 20px;
+    }
+
+    #keunggulan .deskripsi {
+        padding: 0px;
+    }
+
+    #keunggulan h1 {
+        font-size: 25px;
+    }
+
+    #keunggulan p {
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    #keunggulan h2 {
+        font-size: 18px;
+    }
+
+    #keunggulan h3 {
+        font-size: 14px;
+        font-weight: 300;
+    }
+    
+    #keunggulan img {
+        width: 55px;
+        margin-top: 20px;
+    }
+
+    /* Produk Section */
+    #produk {
+        padding: 50px 20px 50px 20px;
+    }
+
+    #produk .deskripsi {
+        padding: 0px;
+    }
+
+    #produk h1 {
+        font-size: 25px;
+    }
+
+    #produk p {
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    #produk .card-produk {
+        padding: 20px  15px 10px 15px;
+        margin-left: 0.5rem !important;
+    }
+
+    #produk .card-produk p {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    #produk .card-produk h3 {
+        font-size:26px;
+        font-weight: 600;
+    }
+
+    #produk .card-produk span {
+        font-size:12px;
+        font-weight: 500;
+    }
+    
+    #produk .pesan p {
+        height: auto;
+        width: 75%;
+        padding: 7px;
+        font-size: 15px;
+        font-weight: 600;
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+
+    #produk .card-produk .bnwth {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    #produk .banner {
+        width: 100%;
+    }
+
+    #produk img {
+        width: 60%;
+    }
+
+    /* Testimoni Section */
+    #testimoni {
+        padding: 50px 20px 50px 20px;
+    }
+
+    #testimoni .deskripsi {
+        padding: 0;
+    }
+
+    #testimoni h1 {
+        font-size: 25px;
+    }
+
+    #testimoni p {
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    #testimoni .cardTesti {
+        margin-left: 1rem !important;
+    }
+
+    /* FAQ */
+    #faq {
+        padding: 50px 0 50px 0;
+    }
+
+    #faq h1 {
+        font-size: 25px;
+    }
+
+    #faq .accordion-button {
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    #faq .accordion-body {
+        font-size: 14px;
+        font-weight: 300;
+        padding: 20px 10px 20px 10px; 
+    }    
+
+    /* Footer Section */
+    #footer {
+        padding: 20px 0 20px 0;
+    }
+
+    #footer p {
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    /* Float Button */
+    .float{
+    	bottom:20px;
+    	right:20px;
+    }
+
+    .my-float {
+        height: 51px;
+        width: 155px;
+        filter: drop-shadow(0px 0px 7px rgba(0, 0, 0, 0.4));
+    }
+}
